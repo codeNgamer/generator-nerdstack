@@ -1,0 +1,92 @@
+{
+  "db": "rethinkdb",
+  "bookshelf": {
+    "db": "sqlite",
+    "init": "data/bookshelf/init",
+    "passport" : "data/bookshelf/passport",
+    "migrations": {
+      "directory": "app/data/bookshelf/migrations",
+      "tableName": "schema_version"
+    },
+    "postgresql": {
+      "client": "pg",
+      "connection": {
+        "host": "127.0.0.1",
+        "user": "postgres",
+        "password": "salasana",
+        "database": "nerd",
+        "charset": "utf8"
+      }
+    },
+    "mysql": {
+      "client": "mysql",
+      "connection": {
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "",
+        "database": "nerd",
+        "charset": "utf8"
+      }
+    },
+    "sqlite": {
+      "client": "sqlite3",
+      "connection": {
+        "filename": "app/data/nerd.db"
+      }
+    }
+  },
+  "mongo": {
+    "init": "data/mongo/init",
+    "passport" : "data/mongo/passport",
+    "config": {
+      "production": {
+        "user": "nerd",
+        "pass": "salasana",
+        "db": "mongodb://localhost/nerd-stack-prod"
+      },
+      "development": {
+        "user": "nerd",
+        "pass": "salasana",
+        "db": "mongodb://localhost/nerd-stack-dev"
+      },
+      "test": {
+        "user": "nerd",
+        "pass": "salasana",
+        "db": "mongodb://localhost/nerd-stack-test"
+      }
+    }
+  },
+  "redis":{
+    "init": "data/redis/init",
+    "passport" : "data/redis/passport",
+    "port":6379,
+    "host":"127.0.0.1",
+    "password":"erittainsalainensalasanajokaontehtypitkaksikoskabruteforceredisinkanssaonkohtalaisennopeata",
+    "options":{
+
+    }
+  },
+  "rethinkdb": {
+    "init": "data/rethinkdb/init",
+    "passport" : "data/rethinkdb/passport",
+    "host": "localhost",
+    "port": 28015,
+    "authKey": "",
+    "db": "nerd_stack_dev"
+  },
+  "couchdb": {
+    "init": "data/couchdb/init",
+    "passport" : "data/couchdb/passport",
+    "host": "http://localhost",
+    "port" : "5984",
+    "db": "nerd_stack_dev"
+  },
+  "neo4j" : {
+    "init" : "data/neo4j/init",
+    "passport" : "data/neo4j/passport",
+    "server" : "http://localhost:7474",
+    "endpoint" : "",
+    "user" : "",
+    "password" : ""
+  }
+}

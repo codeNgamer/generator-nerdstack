@@ -1,0 +1,28 @@
+{
+  "name": "generator-nerdstack",
+  "version": "0.0.1",
+  "description": "yeoman generator for nerd stack",
+  "main": "app/index.js",
+  "files": [
+    "app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeNgamer/generator-nerdstack.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "codengamer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeNgamer/generator-nerdstack/issues"
+  },
+  "homepage": "https://github.com/codeNgamer/generator-nerdstack#readme",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  }
+}

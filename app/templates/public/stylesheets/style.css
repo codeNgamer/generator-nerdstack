@@ -1,0 +1,54 @@
+html, body {
+   margin: 0;
+   padding: 0;
+}
+
+img.cropped-round {
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   border-radius: 25px;
+}
+
+table.mdl-data-table {
+   width: 100%;
+}
+
+table.mdl-data-table td{
+   text-align: left;
+   }
+
+th.table-button {
+   width: 20%;
+}
+
+button.mdl-button {
+   color: #000000;
+}
+
+.form-card-wide.mdl-card, .form-card-large.mdl-card {
+   width: 512px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.form-card-medium.mdl-card {
+   width: 320px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.form-card-medium > .mdl-card__title, .form-card-wide > .mdl-card__title {
+   color: #fff;
+   height: 176px;
+   background-color: rgb(105, 240, 174);
+}
+
+.form-card-medium > .mdl-card__menu, .form-card-wide > .mdl-card__menu {
+   color: #fff;
+}
+
+.form-card-large > .mdl-card__title {
+   color: #fff;
+   height: 64px;
+   background-color: rgb(105, 240, 174);
+}
