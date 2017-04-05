@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/codeNgamer/generator-nerdstack#readme",
   "dependencies": {
+    "lodash": "^4.17.4",
     "yeoman-generator": "^1.1.1"
   }
 }
